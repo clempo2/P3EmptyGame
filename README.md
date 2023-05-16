@@ -1,6 +1,6 @@
 ## P3EmptyGame
 
-[P3EmptyGame](https://github.com/clempo2/P3EmptyGamePriv) is the HelloWorld example for the [Multimorphic](https://www.multimorphic.com/) [P3 Pinball platform](https://www.multimorphic.com/p3-pinball-platform/). P3EmptyGame is a complete functional game resulting from trimming down the sample game distributed in the [P3 SDK V0.8](https://www.multimorphic.com/support/projects/customer-support/wiki/3rd-Party_Development_Kit).
+[P3EmptyGame](https://github.com/clempo2/P3EmptyGame) is the HelloWorld example for the [Multimorphic](https://www.multimorphic.com/) [P3 Pinball platform](https://www.multimorphic.com/p3-pinball-platform/). P3EmptyGame is a complete functional game resulting from trimming down the sample game distributed in the [P3 SDK V0.8](https://www.multimorphic.com/support/projects/customer-support/wiki/3rd-Party_Development_Kit).
 
 P3EmptyGame has two purposes:
 - As a learning aid to study other P3 applications.
@@ -17,7 +17,7 @@ P3EmptyGame has two purposes:
 | ------ | ----------- | ----------- |
 | files | 1146 | 735 |
 | C# files | 133 | 95 |
-| C# lines of code | 13374 | 8755 |
+| C# lines of code | 13374 | 8777 |
 
 ## Features
 
@@ -55,6 +55,28 @@ P3EmptyGame has the following features inherited from the P3 SDK:
 - game settings
 - statistics
 - logs
+
+## Installation
+
+P3EmptyGame is distributed as a patch created by [P3Distrib](https://github.com/clempo2/P3Distrib). To recreate the P3EmptyGame Unity project, you must apply the patch against an unmodified copy of P3SampleApp.
+
+- Download P3Distrib
+    ```
+    git clone https://github.com/clempo2/P3Distrib
+    ```
+- Open the P3Distrib solution in Visual Studio
+    ```
+    cd P3Distrib  
+    P3Distrib.sln
+    ```
+- Build the P3Patch executable
+  Right-click the P3Patch project, select Rebuild
+- Apply the patch against P3SampleApp, adjust the paths for your environment.
+  The output path is the patch path with the .p3patch extension removed.  
+  In the example below, the Unity project is stored in the directory C:\P3\P3EmptyGame
+    ```
+    P3Patch\bin\Debug\P3Patch.exe C:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame_V0.8.1.p3patch
+    ```
 
 ## Instructions
 
@@ -115,6 +137,7 @@ These are the differences between P3SampleApp and P3EmptyGame
 - Added score to lower lanes
 - Added score to BallPath Targets, BallPath Holes and TroughLauncherEntry
 - Relaunch ball when entering hole or TroughLauncher
+- Support mode events in BallPath Targets
 - Removed HUD inventory
 - Added BumpersMode
 - Removed MovingTargetMode and cube in Home scene
@@ -124,11 +147,11 @@ These are the differences between P3SampleApp and P3EmptyGame
 
 ## Known Issues
 
-P3EmptyGame is missing some assets that are also missing in P3SampleApp. See [Issue1](https://github.com/clempo2/P3EmptyGamePriv/issues/1).
+P3EmptyGame is missing some assets that are also missing in P3SampleApp. See [Issue1](https://github.com/clempo2/P3EmptyGame/issues/1).
 
 ## Support
 
-Please submit a [GitHub issue](https://github.com/clempo2/P3EmptyGamePriv/issues) if you find a problem.
+Please submit a [GitHub issue](https://github.com/clempo2/P3EmptyGame/issues) if you find a problem.
 
 You can discuss P3EmptyGame and other P3 Development topics on the [P3 Community Discord Server](https://discord.gg/GuKGcaDkjd) in the dev-forum channel under the 3rd Party Development section.
 
