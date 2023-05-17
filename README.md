@@ -1,6 +1,6 @@
 ## P3EmptyGame
 
-[P3EmptyGame](https://github.com/clempo2/P3EmptyGame) is the HelloWorld example for the [Multimorphic](https://www.multimorphic.com/) [P3 Pinball platform](https://www.multimorphic.com/p3-pinball-platform/). P3EmptyGame is a complete functional game resulting from trimming down the sample game distributed in the [P3 SDK V0.8](https://www.multimorphic.com/support/projects/customer-support/wiki/3rd-Party_Development_Kit).
+[P3EmptyGame](https://github.com/clempo2/P3EmptyGame) is a very simple game for the [Multimorphic](https://www.multimorphic.com/) [P3 Pinball platform](https://www.multimorphic.com/p3-pinball-platform/). P3EmptyGame is a complete functional game resulting from trimming down the sample game distributed in the [P3 SDK V0.8](https://www.multimorphic.com/support/projects/customer-support/wiki/3rd-Party_Development_Kit).
 
 P3EmptyGame has two purposes:
 - As a learning aid to study other P3 applications.
@@ -69,7 +69,7 @@ P3EmptyGame is distributed as a patch created by [P3Distrib](https://github.com/
     cd P3Distrib  
     P3Distrib.sln
     ```
-- Build the P3Patch executable
+- Build the P3Patch executable  
   Right-click the P3Patch project, select Rebuild
 - Apply the patch against P3SampleApp, adjust the paths for your environment.  
   The output path is the patch path with the .p3patch extension removed.  
