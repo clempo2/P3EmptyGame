@@ -15,9 +15,9 @@ P3EmptyGame has two purposes:
 
 | Metric | P3SampleApp | P3EmptyGame |
 | ------ | ----------- | ----------- |
-| files | 1146 | 735 |
-| C# files | 133 | 95 |
-| C# lines of code | 13374 | 8777 |
+| files | 1124 | 703 |
+| C# files | 133 | 94 |
+| C# lines of code | 13414 | 8683 |
 
 ## Features
 
@@ -75,7 +75,7 @@ P3EmptyGame is distributed as a patch created by [P3Distrib](https://github.com/
   The output path is the patch path with the .p3patch extension removed.  
   In the example below, the Unity project is stored in the directory C:\P3\P3EmptyGame
     ```
-    P3Patch\bin\Debug\P3Patch.exe C:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame_V0.8.1.p3patch
+    P3Patch\bin\Debug\P3Patch.exe C:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame_V0.8.2.p3patch
     ```
 
 ## Instructions
@@ -129,7 +129,7 @@ These are the differences between P3SampleApp and P3EmptyGame
 - Removed attempted/completion state of a scene
 - Launches cycle between all launchers with inlane or lower playfield destination
 - Launches cycle between launchers with upper playfield destination on Drained
-- Removed Twitch integration
+- Removed Twitch integration including viewer interactions
 - Removed ramp shots high score categories
 - Changed version of game attributes to 1
 - Changed default for side target difficulty to 2 (one target per hit)
