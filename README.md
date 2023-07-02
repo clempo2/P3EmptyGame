@@ -15,7 +15,7 @@ P3EmptyGame has two purposes:
 
 | Metric | P3SampleApp | P3EmptyGame |
 | ------ | ----------- | ----------- |
-| files | 1124 | 703 |
+| files | 1124 | 700 |
 | C# files | 133 | 94 |
 | C# lines of code | 13414 | 8683 |
 
