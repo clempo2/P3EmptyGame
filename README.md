@@ -73,9 +73,9 @@ P3EmptyGame is distributed as a patch created by [P3Distrib](https://github.com/
   Right-click the P3Patch project, select Rebuild
 - Apply the patch against P3SampleApp, adjust the paths for your environment.  
   The output path is the patch path with the .p3patch extension removed.  
-  In the example below, the Unity project is stored in the directory C:\P3\P3EmptyGame
+  In the example below, the Unity project is stored in the directory C:\P3\P3EmptyGame_V0.8.3
     ```
-    P3Patch\bin\Debug\P3Patch.exe C:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame_V0.8.2.p3patch
+    P3Patch\bin\Debug\P3Patch.exe C:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame_V0.8.3.p3patch
     ```
 
 ## Instructions
